@@ -1,14 +1,15 @@
 body {
-  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-  font-size: 15px;
-  letter-spacing: .05em;
-  color: #333;
+    font-family: serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  color: #D4BD86;
 }
 
 img {
@@ -124,12 +125,12 @@ img {
   bottom: 0;
   left: 50%;
   width: 0;
-  height: 3px;
+  height: 1px;
   content: "";
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: #D4BD86;
 }
 
 .gnav-item a:hover:after {
@@ -243,7 +244,7 @@ img {
   margin: 0 auto;
 }
 .profile-img {
-  width: 20%;
+  width: 30%;
   margin-right: 30px;
   border-radius: 50%;
 }
