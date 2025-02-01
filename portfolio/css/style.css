@@ -2,8 +2,6 @@ body {
     font-family: serif;
     font-weight: 400;
     font-style: normal;
-  
-  
 }
 
 a {
@@ -40,8 +38,8 @@ img {
   padding: 90px 0;
 }
 
-.section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+.section:nth-of-type(n+1) {
+  background-color: #bacaed;
 }
 
 .container {
@@ -146,6 +144,7 @@ img {
   justify-content: center;
   height: auto;
   text-align: center;
+  background-color: #e8e8e8;
 }
 
 .mv-container {
@@ -240,16 +239,16 @@ img {
 .profile {
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 .profile-img {
-  width: 30%;
+  width:11%;
   margin-right: 30px;
   border-radius: 50%;
 }
 .profile-img img {
-  border-radius: 50%;
+  border-radius: 5%;
 }
 .profile-body {
   flex: 1;
@@ -272,7 +271,7 @@ img {
 }
 
 .contact-item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 1000px;
 }
 
 .contact-text {
